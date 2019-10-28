@@ -2,7 +2,7 @@
 
 namespace Bluehorse.Core.Helper
 {
-    public sealed class Message : IInputMessage, IOutputMessage
+    public sealed class Message : IMessage
     {
         public event Action Receive;
 
@@ -12,7 +12,7 @@ namespace Bluehorse.Core.Helper
         }
     }
 
-    public sealed class Message<T> : IInputMessage<T>, IOutputMessage<T>
+    public sealed class Message<T> : IMessage<T>
     {
         public event Action<T> Receive;
 
@@ -22,7 +22,7 @@ namespace Bluehorse.Core.Helper
         }
     }
 
-    public sealed class Message<T1, T2> : IInputMessage<T1, T2>, IOutputMessage<T1, T2>
+    public sealed class Message<T1, T2> : IMessage<T1, T2>
     {
         public event Action<T1, T2> Receive;
 
@@ -32,7 +32,7 @@ namespace Bluehorse.Core.Helper
         }
     }
 
-    public sealed class Message<T1, T2, T3> : IInputMessage<T1, T2, T3>, IOutputMessage<T1, T2, T3>
+    public sealed class Message<T1, T2, T3> : IMessage<T1, T2, T3>
     {
         public event Action<T1, T2, T3> Receive;
 
@@ -42,7 +42,7 @@ namespace Bluehorse.Core.Helper
         }
     }
 
-    public sealed class Message<T1, T2, T3, T4> : IInputMessage<T1, T2, T3, T4>, IOutputMessage<T1, T2, T3, T4>
+    public sealed class Message<T1, T2, T3, T4> : IMessage<T1, T2, T3, T4>
     {
         public event Action<T1, T2, T3, T4> Receive;
 
