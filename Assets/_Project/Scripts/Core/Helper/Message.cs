@@ -9,7 +9,7 @@ namespace Bluehorse.Core.Helper
 
         public void Send()
         {
-            Receive.Call();
+            Receive?.Invoke();
         }
     }
 
@@ -19,7 +19,7 @@ namespace Bluehorse.Core.Helper
 
         public void Send(T arg)
         {
-            Receive.Call(arg);
+            Receive?.Invoke(arg);
         }
     }
 
@@ -29,7 +29,7 @@ namespace Bluehorse.Core.Helper
 
         public void Send(T1 arg1, T2 arg2)
         {
-            Receive.Call(arg1, arg2);
+            Receive?.Invoke(arg1, arg2);
         }
     }
 
@@ -39,7 +39,7 @@ namespace Bluehorse.Core.Helper
 
         public void Send(T1 arg1, T2 arg2, T3 arg3)
         {
-            Receive.Call(arg1, arg2, arg3);
+            Receive?.Invoke(arg1, arg2, arg3);
         }
     }
 
@@ -49,7 +49,7 @@ namespace Bluehorse.Core.Helper
 
         public void Send(T1 arg1, T2 arg2, T3 arg3, T4 arg4)
         {
-            Receive.Call(arg1, arg2, arg3, arg4);
+            Receive?.Invoke(arg1, arg2, arg3, arg4);
         }
-    }    
+    }
 }
