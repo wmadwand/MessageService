@@ -15,7 +15,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-namespace Terminus.Extensions
+namespace Bluehorse.Extensions
 {
     public static class UnityEngineObjectExtensions
     {

@@ -17,13 +17,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
-using Terminus.Extensions;
+using Bluehorse.Extensions;
 
 using UnityEditor;
 
 using UnityEngine;
 
-namespace Terminus
+namespace Bluehorse
 {
 #if UNITY_EDITOR
     [InitializeOnLoad]

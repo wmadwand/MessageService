@@ -16,11 +16,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-using Terminus.Core.Helper;
+using Bluehorse.Core.Helper;
 
 using Random = UnityEngine.Random;
 
-namespace Terminus.Extensions
+namespace Bluehorse.Extensions
 {
     public static class ListExtensions
     {

@@ -17,7 +17,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-namespace Terminus.Extensions
+namespace Bluehorse.Extensions
 {
     public static class ComponentExtensions
     {

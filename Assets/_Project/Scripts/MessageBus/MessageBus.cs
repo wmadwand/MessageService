@@ -1,12 +1,12 @@
 ﻿using System;
 
 //using Terminus.Core.Configs;
-using Terminus.Core.Helper;
+using Bluehorse.Core.Helper;
 using UnityEngine;
 //using Terminus.Game.SaveLoad;
 
 
-namespace Terminus.Game.Messages
+namespace Bluehorse.Game.Messages
 {
 	public sealed class MessageBus
 	{

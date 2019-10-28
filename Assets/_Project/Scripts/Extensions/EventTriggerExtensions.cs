@@ -14,7 +14,7 @@
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-namespace Terminus.Extensions
+namespace Bluehorse.Extensions
 {
     public static class EventTriggerExtensions
     {

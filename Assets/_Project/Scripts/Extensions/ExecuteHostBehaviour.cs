@@ -11,11 +11,11 @@
 // is strictly forbidden unless prior written permission is obtained
 // from Mirosoft LLC.
 
-using Terminus.Extensions;
+using Bluehorse.Extensions;
 
 using UnityEngine;
 
-namespace Terminus
+namespace Bluehorse
 {
     [ExecuteInEditMode]
     public sealed class ExecuteHostBehaviour : MonoBehaviour

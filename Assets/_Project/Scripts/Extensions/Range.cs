@@ -14,7 +14,7 @@
 // 	
 using System;
 
-namespace Terminus.Core.Helper
+namespace Bluehorse.Core.Helper
 {
     public struct Range<T>
     {

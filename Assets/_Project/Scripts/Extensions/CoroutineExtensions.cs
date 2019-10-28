@@ -14,11 +14,11 @@
 using System;
 using System.Collections;
 
-using Terminus.Core.Helper;
+using Bluehorse.Core.Helper;
 
 using UnityEngine;
 
-namespace Terminus.Extensions
+namespace Bluehorse.Extensions
 {
     public static class CoroutineExtensions
     {
